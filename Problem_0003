@@ -1,0 +1,3 @@
+factors ← {(0=(⍳⍵)|⍵)/⍳⍵}
+isprime ← {2=+/0=(⍳⍵)|⍵}
+{⌈/(isprime¨factors ⍵)/factors ⍵}600851475143
