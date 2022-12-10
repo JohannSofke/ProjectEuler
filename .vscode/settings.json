@@ -1,0 +1,118 @@
+{
+    "editor.fontSize": 13,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "code-runner.executorMapByFileExtension": {
+        ".apl": "docker run -v /workspaces/APL-codespace:/workspaces/APL-codespace --entrypoint dyalogscript dyalog/dyalog"
+    },
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.enableAppInsights": false,
+    "code-runner.ignoreSelection": false,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.showRunCommandInEditorContextMenu": false,
+    "code-runner.showRunCommandInExplorerContextMenu": false,
+    "code-runner.showExecutionMessage": false,
+    "generic-input-methods.input-methods": [
+        {
+            "languages": [
+                "apl"
+            ],
+            "triggers": [
+                "\\"
+            ],
+            "dictionary": [
+                { "label": "←   <-   ASSIGN", "body": "←"},
+
+                { "label": "+        conjugate   plus", "body": "+"},
+                { "label": "-        negate   minus", "body": "-"},
+                { "label": "×   xx   direction   times", "body": "×"},
+                { "label": "÷   :-   reciprocal   divide", "body": "÷"},
+                { "label": "*        exponent   power", "body": "*"},
+                { "label": "⍟   *O   natural logarithm   logarithm", "body": "⍟"},
+                { "label": "⌹   [-   matrix inverse   matrix divide", "body": "⌹"},
+                { "label": "○   OO   pi times   circular", "body": "○"},
+                { "label": "!        factorial   binomial", "body": "!"},
+                { "label": "?        roll   deal", "body": "?"},
+
+                { "label": "|        magnitude   residue", "body": "|"},
+                { "label": "⌈   FF   ceiling   maximum", "body": "⌈"},
+                { "label": "⌊   LL   floor   minimum", "body": "⌊"},
+                { "label": "⊥   |_   decode", "body": "⊥"},
+                { "label": "⊤   TT   encode", "body": "⊤"},
+                { "label": "⊣   -|   same   left", "body": "⊣"},
+                { "label": "⊢   |-   same   right", "body": "⊢"},
+
+                { "label": "=        equal", "body": "="},
+                { "label": "≠   =/   unique mask   not equal", "body": "≠"},
+                { "label": "≤   <=   less than or equal to", "body": "≤"},
+                { "label": "<        less than", "body": "≤"},
+                { "label": ">        greater than", "body": ">"},
+                { "label": "≥   >=   greater than or equal to", "body": "≥"},
+                { "label": "≡   ==   depth   match", "body": "≡"},
+                { "label": "≢   Z-   tally   not match", "body": "≢"},
+
+                { "label": "∨   vv   greatest common divisior   or", "body": "∨"},
+                { "label": "∧   ^^   lowest common multiple   and", "body": "∧"},
+                { "label": "⍲   ^~   nand", "body": "⍲"},
+                { "label": "⍱   v~   nor", "body": "⍱"},
+
+                { "label": "↑   ^|   mix   take", "body": "↑"},
+                { "label": "↓   v|   split   drop", "body": "↓"},
+                { "label": "⊂   ((   enclose   partioned enclose", "body": "⊂"},
+                { "label": "⊃   ))   pick   first", "body": "⊃"},
+                { "label": "⊆   (_   nest   partition", "body": "⊆"},
+                { "label": "⌷   [|   index", "body": "⌷"},
+                { "label": "⍋   A|   grade up   grade up", "body": "⍋"},
+                { "label": "⍒   V|   grade down   grade down", "body": "⍒"},
+
+                { "label": "⍳   ii   indices   indices of", "body": "⍳"},
+                { "label": "⍸   i_   where   interval index", "body": "⍸"},
+                { "label": "∊   ee   enlist   member of", "body": "∊"},
+                { "label": "⍷   e_   find", "body": "⍷"},
+                { "label": "∪   uu   unique   union", "body": "∪"},
+                { "label": "∩   nn   intersection", "body": "∩"},
+                { "label": "~        not   without", "body": "~"},
+
+                { "label": "/        replicate   Reduce", "body": "/"},
+                { "label": "\\        expand   Scan", "body": "\\"},
+                { "label": "⌿   /-   replicate first   Reduce First", "body": "⌿"},
+                { "label": "⍀   \\-   expand first   Scan First", "body": "⍀"},
+
+                { "label": ",        ravel   catenate/laminate", "body": ","},
+                { "label": "⍪   ,-   tabel   catenate first/laminate", "body": "⍪"},
+                { "label": "⍴   pp   shape   reshape", "body": "⍴"},
+                { "label": "⌽   O|   revserse   rotate", "body": "⌽"},
+                { "label": "⊖   O-   revserse first   rotate first", "body": "⊖"},
+                { "label": "⍉   O\\   transpose   reorder axes", "body": "⍉"},
+
+                { "label": "¨   ::   Each", "body": "¨"},
+                { "label": "⍨   ~:   Constant   Self   Swap", "body": "⍨"},
+                { "label": "⍣   *:   Repeat", "body": "⍣"},
+                { "label": ".        Outer Product(∘.)   Inner Product", "body": "."},
+                { "label": "∘   oo   OUTER PRODUCT(∘.)   Curry   Compose", "body": "∘"},
+                { "label": "⍤   o:   Rank   Atop", "body": "⍤"},
+                { "label": "⍥   O:   Over", "body": "⍥"},
+                { "label": "@        At", "body": "@"},
+
+                { "label": "⎕   []   SYSTEM NAME", "body": "⎕"},
+                { "label": "⍠   [:   Varinat", "body": "⍠"},
+                { "label": "⌸   [=   Index Key   Key", "body": "⌸"},
+                { "label": "⌺   [<   Stencil", "body": "⌺"},
+                { "label": "⌶   T_   I-Beam", "body": "⌶"},
+                { "label": "⍎   o_   execute", "body": "⍎"},
+                { "label": "⍕   oT   format", "body": "⍕"},
+
+                { "label": "⋄   <>   STATEMENT SEPARATOR", "body": "⋄"},
+                { "label": "⍝   on   COMMENT", "body": "⍝"},
+                { "label": "⍵   ww   RIGHT ARGUMENT   RIGHT OPERAND (⍵⍵)", "body": "⍵"},
+                { "label": "⍺   aa   LEFT ARGUMENT   LEFT OPERAND (⍺⍺)", "body": "⍺"},
+                { "label": "∇   VV   recursion   Recursion (∇∇)", "body": "∇"},
+                
+                { "label": "¯   --   NEGATE", "body": "¯"},
+                { "label": "⍬   O~   EMPTY NUMERIC VECTOR", "body": "⍬"},
+            ]
+        }
+    ]
+}
