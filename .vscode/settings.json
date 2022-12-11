@@ -5,7 +5,7 @@
     "git.confirmSync": false,
     "git.autofetch": true,
     "code-runner.executorMapByFileExtension": {
-        ".apl": "docker run -v /workspaces/ProjectEuler:/workspaces/ProjectEuler --entrypoint dyalogscript dyalog/dyalog"
+        ".apl": "docker run -v $dir:$dir --entrypoint dyalogscript dyalog/dyalog $fullFileName"
     },
     "code-runner.clearPreviousOutput": true,
     "code-runner.enableAppInsights": false,
@@ -14,6 +14,7 @@
     "code-runner.showRunCommandInEditorContextMenu": false,
     "code-runner.showRunCommandInExplorerContextMenu": false,
     "code-runner.showExecutionMessage": false,
+    "code-runner.runInTerminal": false,
     "generic-input-methods.input-methods": [
         {
             "languages": [
