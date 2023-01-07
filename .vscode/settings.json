@@ -1,11 +1,11 @@
 {
-    "editor.fontSize": 13,
+    "editor.fontSize": 16,
     "editor.unicodeHighlight.ambiguousCharacters": false,
     "terminal.integrated.enableMultiLinePasteWarning": false,
     "git.confirmSync": false,
     "git.autofetch": true,
     "code-runner.executorMapByFileExtension": {
-        ".apl": "docker run -v $dir:$dir --entrypoint dyalogscript dyalog/dyalog $fullFileName"
+        ".apl": "docker run -v $dir:$dir --env MAXWS=4G --entrypoint dyalogscript dyalog/dyalog $fullFileName"
     },
     "code-runner.clearPreviousOutput": true,
     "code-runner.enableAppInsights": false,
