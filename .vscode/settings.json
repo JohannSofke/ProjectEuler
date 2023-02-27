@@ -1,7 +1,9 @@
 {
     "editor.fontSize": 16,
     "editor.unicodeHighlight.ambiguousCharacters": false,
-    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "editor.tabCompletion": "onlySnippets",
+    "editor.snippetSuggestions": "none",
+    "terminal.integrated.enableMultiLinePasteWarning": false,    
     "git.confirmSync": false,
     "git.autofetch": true,
     "code-runner.executorMapByFileExtension": {
