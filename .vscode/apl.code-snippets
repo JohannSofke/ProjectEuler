@@ -1,10 +1,261 @@
 {
-    "⍺": {
-        "prefix": "aa",
-        "body": "⍺",
+    "←": {
+        "prefix": "<-",
+        "body": "←"
+    },
+    //"+": {"prefix": "+","body": "+"},
+    //"-": {"prefix": "-","body": "-"},
+    "×": {
+        "prefix": "xx",
+        "body": "×"
+    },
+    "÷": {
+        "prefix": "-:",
+        "body": "÷"
+    },
+    //"*": {"prefix": "*","body": "*"},
+    "⍟": {
+        "prefix": "*O",
+        "body": "⍟"
+    },
+    "⌹": {
+        "prefix": "[-",
+        "body": "⌹"
+    },
+    "○": {
+        "prefix": "OO",
+        "body": "○"
+    },
+    //"!": {"prefix": "!","body": "!"},
+    //"?": {"prefix": "?","body": "?"},
+    //"|": {"prefix": "|","body": "|"},
+    "⌈": {
+        "prefix": "FF",
+        "body": "⌈"
+    },
+    "⌊": {
+        "prefix": "LL",
+        "body": "⌊"
+    },
+    "⊥": {
+        "prefix": "|_",
+        "body": "⊥"
+    },
+    "⊤": {
+        "prefix": "TT",
+        "body": "⊤"
+    },
+    "⊣": {
+        "prefix": "-|",
+        "body": "⊣"
+    },
+    "⊢": {
+        "prefix": "|-",
+        "body": "⊢"
+    },
+    //"=": {"prefix": "=","body": "="},
+    "≠": {
+        "prefix": "=/",
+        "body": "≠"
+    },
+    "≤": {
+        "prefix": "<=",
+        "body": "≤"
+    },
+    //"<": {"prefix": "<","body": "<"},
+    //">": {"prefix": ">","body": ">"},
+    "≥": {
+        "prefix": ">=",
+        "body": "≥"
+    },
+    "≡": {
+        "prefix": "==",
+        "body": "≡"
+    },
+    "≢": {
+        "prefix": "Z-",
+        "body": "≢"
+    },
+    "∨": {
+        "prefix": "vv",
+        "body": "∨"
+    },
+    "∧": {
+        "prefix": "^^",
+        "body": "∧"
+    },
+    "⍲": {
+        "prefix": "^~",
+        "body": "⍲"
+    },
+    "⍱": {
+        "prefix": "v~",
+        "body": "⍱"
+    },
+    "↑": {
+        "prefix": "^|",
+        "body": "↑"
+    },
+    "↓": {
+        "prefix": "v|",
+        "body": "↓"
+    },
+    "⊂": {
+        "prefix": "((",
+        "body": "⊂"
+    },
+    "⊃": {
+        "prefix": "))",
+        "body": "⊃"
+    },
+    "⊆": {
+        "prefix": "(_",
+        "body": "⊆"
+    },
+    "⌷": {
+        "prefix": "[|",
+        "body": "⌷"
+    },
+    "⍋": {
+        "prefix": "A|",
+        "body": "⍋"
+    },
+    "⍒": {
+        "prefix": "V|",
+        "body": "⍒"
+    },
+    "⍳": {
+        "prefix": "ii",
+        "body": "⍳"
+    },
+    "⍸": {
+        "prefix": "i_",
+        "body": "⍸"
+    },
+    "∊": {
+        "prefix": "ee",
+        "body": "∊"
+    },
+    "⍷": {
+        "prefix": "e_",
+        "body": "⍷"
+    },
+    "∪": {
+        "prefix": "uu",
+        "body": "∪"
+    },
+    "∩": {
+        "prefix": "nn",
+        "body": "∩"
+    },
+    //"~": {"prefix": "~","body": "~"},
+    //"/": {"prefix": "/","body": "/"},
+    //"\\": {"prefix": "\\","body": "\\"},
+    "⌿": {
+        "prefix": "/-",
+        "body": "⌿"
+    },
+    "⍀": {
+        "prefix": "\\-",
+        "body": "⍀"
+    },
+    //",": {"prefix": ",","body": ","},
+    "⍪": {
+        "prefix": ",-",
+        "body": "⍪"
+    },
+    "⍴": {
+        "prefix": "pp",
+        "body": "⍴"
+    },
+    "⌽": {
+        "prefix": "O|",
+        "body": "⌽"
+    },
+    "⊖": {
+        "prefix": "O-",
+        "body": "⊖"
+    },
+    "⍉": {
+        "prefix": "O\\",
+        "body": "⍉"
+    },
+    "¨": {
+        "prefix": "::",
+        "body": "¨"
+    },
+    "⍨": {
+        "prefix": "~:",
+        "body": "⍨"
+    },
+    "⍣": {
+        "prefix": "*:",
+        "body": "⍣"
+    },
+    //".": {"prefix": ".","body": "."},
+    "∘": {
+        "prefix": "oo",
+        "body": "∘"
+    },
+    "⍤": {
+        "prefix": "o:",
+        "body": "⍤"
+    },
+    "⍥": {
+        "prefix": "O:",
+        "body": "⍥"
+    },
+    //"@": {"prefix": "@","body": "@"},
+    "⎕": {
+        "prefix": "[]",
+        "body": "⎕"
+    },
+    "⍠": {
+        "prefix": "[:",
+        "body": "⍠"
+    },
+    "⌸": {
+        "prefix": "[=",
+        "body": "⌸"
+    },
+    "⌺": {
+        "prefix": "[<",
+        "body": "⌺"
+    },
+    "⌶": {
+        "prefix": "T_",
+        "body": "⌶"
+    },
+    "⍎": {
+        "prefix": "o_",
+        "body": "⍎"
+    },
+    "⍕": {
+        "prefix": "oT",
+        "body": "⍕"
+    },
+    "⋄": {
+        "prefix": "<>",
+        "body": "⋄"
+    },
+    "⍝": {
+        "prefix": "on",
+        "body": "⍝"
     },
     "⍵": {
         "prefix": "ww",
-        "body": "⍵",
-    }
+        "body": "⍵"
+    },
+    "⍺": {
+        "prefix": "aa",
+        "body": "⍺"
+    },
+    "¯": {
+        "prefix": "--",
+        "body": "¯"
+    },
+    "⍬": {
+        "prefix": "0~",
+        "body": "⍬"
+    },
 }
