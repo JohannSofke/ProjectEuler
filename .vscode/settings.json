@@ -23,7 +23,7 @@
                 "apl"
             ],
             "triggers": [
-                "\\"
+                "#"
             ],
             "dictionary": [
                 { "label": "←   <-   ASSIGN", "body": "←"},
