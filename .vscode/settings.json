@@ -114,7 +114,7 @@
                 { "label": "∇   VV   recursion   Recursion (∇∇)", "body": "∇"},
                 
                 { "label": "¯   --   NEGATE", "body": "¯"},
-                { "label": "⍬   O~   EMPTY NUMERIC VECTOR", "body": "⍬"},
+                { "label": "⍬   0~   EMPTY NUMERIC VECTOR", "body": "⍬"},
             ]
         }
     ]
