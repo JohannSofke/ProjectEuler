@@ -250,6 +250,10 @@
         "prefix": "aa",
         "body": "⍺"
     },
+    "∇": {
+        "prefix": "VV",
+        "body": "∇"
+    },
     "¯": {
         "prefix": "--",
         "body": "¯"
