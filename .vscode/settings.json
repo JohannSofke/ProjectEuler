@@ -3,6 +3,7 @@
     "editor.unicodeHighlight.ambiguousCharacters": false,
     "editor.tabCompletion": "onlySnippets",
     "editor.snippetSuggestions": "none",
+    "editor.autoClosingBrackets": "never",
     "terminal.integrated.enableMultiLinePasteWarning": false,    
     "git.confirmSync": false,
     "git.autofetch": true,
